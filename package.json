@@ -1,0 +1,23 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Generate a fake rest api for tests",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheuswells/jsonserver.git"
+  },
+  "scripts":{ 
+    "start": "json-server --watch server.json -p 80"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheuswells/jsonserver/issues"
+  },
+  "homepage": "https://github.com/Matheuswells/jsonserver#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
